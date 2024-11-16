@@ -102,6 +102,12 @@ header ul li a:hover{
     margin: 5px;
     background-color:#ffece5;
 }
+.carousel-indicators [data-bs-target]{
+    width: 12px;
+    height: 10px;
+    border-radius: 50%;
+    
+}
 
 
 .title-img{
@@ -219,7 +225,7 @@ color:goldenrod;
 
 /* footer section start */
 .footer-section{
-    color: blue;
+    color:rgb(0, 81, 255);
 }
 
 .footer-section p{
@@ -235,3 +241,9 @@ color:goldenrod;
     color: #f08348;
 }
 /* footer end */
+
+/* payment-method section start */
+
+.cash-card{
+    width: 46px;
+}
