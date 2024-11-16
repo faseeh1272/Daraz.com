@@ -247,3 +247,23 @@ color:goldenrod;
 .cash-card{
     width: 46px;
 }
+
+.para{
+    background-color: rgb(220, 222, 224);
+    font-size: 12px;
+    columns: 4;
+    padding: 50px;
+}
+
+
+.nation-logo{
+    width: 28px;
+    
+}
+.nation-a{
+    color: rgb(149, 152, 153);
+}
+.Follow{
+    width: 28px;
+    margin: 5px;
+}
