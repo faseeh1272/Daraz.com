@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daraz.com</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js"
+        integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css"
+        integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assest/style.css">
+</head>
+<style>
+    .custom {
+        position: relative;
+        z-index: 1;
+    }
+
+    .custom-img {
+        width: 100%;
+        background-color: blueviolet;
+        display: block;
+        height: 100%;
+        overflow: hidden;
+
+
+    }
+</style>
+
+<body>
+
+
+    <header>
+        <div class="header">
+            <ul>
+                <li><a href="javascript:void(0);">save more on app</a></li>
+                <li><a href="javascript:void(0);">sell on daraz</a></li>
+                <li><a href="javascript:void(0);">help and support</a></li>
+                <li><a href="javascript:void(0);">Login</a></li>
+                <li><a href="javascript:void(0);">sign up</a></li>
+                <li><a href="javascript:void(0);">زبان تبدیل کریں</a></li>
+            </ul>
+        </div>
+        <div class="nav">
+            <div class="nav-logo">
+                <img src="./assest/images/3b870cb043c7f8a9741cbf66329e294e.png" alt="">
+            </div>
+            <div class="search">
+                <input type="search" name="" id="search" placeholder="search in daraz"><a href="javascript:void(0);"><i
+                        class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="slider-section mt-5 custom">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./assest/images/1 slider.webp" class="d-block mt-5" s-img alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./assest/images/2 slider.webp" class="d-block mt-5" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./assest/images/3 slider.webp" class="d-block mt-5" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-2 two-clm">
+                    <div class="title d-flex p-2 ">
+                        <div class="logo-title mt-5">
+                            <img class="title-img" src="./assest/images/2 half logo.webp" alt="dferedgfrsrd">
+                        </div>
+                        <div class="title-text mt-5 fw-bold">
+                            <p>TRY DARAZ APP</p>
+                        </div>
+                    </div>
+                    <div class="module-content">
+                        <span><i class="fa-regular fa-star"></i></span> <span>4.8 Rated</span>
+                        <p class="text-center">Download the App now</p>
+                    </div>
+                    <div class="free-shipping-icons d-flex">
+                        <div class="icon-items d-flex align-item-center">
+                            <img class="icon-img" src="./assest/images/car 1 icon.webp" alt="">
+                        </div>
+                        <span>free shipping</span>
+                        <!-- <div class="icon-items">
+                        <img src="./assest/images/2 car icon.webp" alt=""> <span>free shipping</span>
+                    </div> -->
+                    </div>
+                    <div class="free-shipping-icons d-flex">
+                        <div class="icon-items d-flex">
+                            <img class="icon-img" src="./assest/images/2 car icon.webp" alt="">
+                        </div>
+                        <span>free shipping</span>
+
+                    </div>
+                    <div class="skiner d-flex p-2">
+                        <div class="s-1">
+                            <img class="sk-1" src="./assest/images/skinr 1111.webp" alt="">
+                        </div>
+                        <div class="app-store">
+                            <img class="app"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i4/O1CN01uAl8kB1wEv2DNjdhB_!!6000000006277-2-tps-125-36.png"
+                                alt="">
+                            <img class="app"
+                                src="https://img.lazcdn.com/g/tps/imgextra/i1/O1CN01QJGFfc1S0mKngu4rQ_!!6000000002185-2-tps-125-36.png"
+                                alt="">
+                        </div>
+
+                    </div>
+                    <p class="last-p">Download the app now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="three-banner mb-5">
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="custom-img" src="./assest/images/file.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="sale">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="sale-p">On Sale Now</p>
+                </div>
+                <div class="col-lg-6 text-end">
+                    <span class="sale-a"> shop all products</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+
+    <section class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/1 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-10%</span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/2 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-70%</span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/3 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-60%</span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/4 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-50%</span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/5 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-40%</span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/6 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del> <span class="minus">-30%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <h1>Categories</h1>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/7 p.webp" alt="">
+                    <p>messanger bags</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/10 p.webp" alt="">
+                    <p>messanger bags</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/11 p.webp" alt="">
+                    <p>messanger bags</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/12 p.webp" alt="">
+                    <p>messanger bags</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/14 p.webp" alt="">
+                    <p>messanger bags</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/15 ppp.webp" alt="">
+                    <p>messanger bags</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/sp.webp" alt="">
+                    <p>barstools</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/kn.webp" alt="">
+                    <p>blocks and bilding toys</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/baby.webp" alt="">
+                    <p>tote bags</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/bed.webp" alt="">
+                    <p>Dog and cat beds</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/kit.webp" alt="">
+                    <p>starter kits</p>
+                </div>
+                <div class="col-lg-2">
+                    <img class="images-z" src="./assest/images/sunglasses.webp" alt="">
+                    <p>sunglasses</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/1 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-10%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(123)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/2 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-20%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(124)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/3 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-30%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(125)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/4 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-40%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(126)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/5 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-50%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(127)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/6 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-60%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(128)</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/16 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-70%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(129)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/17 pp.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(120)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/18 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus"> -80%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(188)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/19 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-90%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(189)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/20 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-100%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(199)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/6 p.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-50%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(100)</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/microphone.webp" alt="">
+                        <div class="card-title">
+                            <p>microphone wireless
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.1500 </span>
+                        </div>
+                        <del>Rs.3000</del><span class="minus">-70%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(111)</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="picture-wrap text-start">
+                        <img src="./assest/images/17 pp.webp" alt="">
+                        <div class="card-title">
+                            <p>Redme 14C 6GB RAM+
+                                128GB ROM 6.88"Dot...
+                            </p>
+                        </div>
+                        <div class="price-product">
+                            <span class="price">
+                                Rs.37,999 </span>
+                        </div>
+                        <del>Rs.37,999</del><span class="minus">-70%</span>
+                        <p><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="minus">(133)</span></p>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+    <section class="load">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-4">
+                    <div class="load-more mb-5">LOAD MORE </div>
+                </div>
+                <div class="col-lg-4"></div>
+            </div>
+        </div>
+    </section>
+    <section class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <h5>customer</h5>
+                    <p>help center</p>
+                    <p>How to buy</p>
+                    <p>corporate & buik purchasing</p>
+                    <p>Return and refunds</p>
+                    <p>Daraz shop</p>
+                    <p>contact us</p>
+                    <p>purchasing protact</p>
+                    <p>Daraz picup points</p>
+                </div>
+                <div class="col-lg-3">
+                    <h5>Daraz</h5>
+                    <p>about us</p>
+                    <p>Digital payments</p>
+                    <p>Daraz donates</p>
+                    <p>Daraz Blog</p>
+                    <p>term & condition</p>
+                    <p>privacy policy</p>
+                    <p>NTN number:1234567</p>
+                    <p>online shoping app</p>
+                    <p>online grocery shoping</p>
+                    <p>Daraz exclusive</p>
+                    <p>Daraz university</p>
+                    <p>Sell on Daraz</p>
+                    <p>join Daraz afiliate program</p>
+                </div>
+                <div class="col-lg-3">
+                    <div class="footer-content d-flex">
+                        <div class="footer-logo">
+                            <img src="./assest/images/footer-logo.png" alt="">
+                        </div>
+                        <div class="text align-item-center p-2">
+                            <h6 class="footer-h">Happy shoping</h6>
+                            <h6 class="footer-h">Download the app</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <img src="./assest/images/foo-app.png" alt=""><img src="./assest/images/play-footer.png" alt="">
+                    <img src="./assest/images/G-APP.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
